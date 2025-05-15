@@ -28,17 +28,17 @@ void SumofSub(int m, int k, int r) {
 }
 
 int main() {
-    int n, sum = 0;
+    int n, sum = 0,i;
     printf("Enter the number of elements: ");
     scanf("%d", &n);
    printf("Enter the elements:\n");
-  for (int i = 1; i <= n; i++) {
-        scanf("%d", &arr[i]);
+  for ( i = 1; i <= n; i++) {
+        scanf("%d", &s[i]);
     }
     
     printf("Enter the value of d: ");
     scanf("%d", &d);
-    for (int i = 1; i <= n; i++) {
+    for (i = 1; i <= n; i++) {
         sum += s[i];
     }
     if (sum < d || s[1] > d) {
